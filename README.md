@@ -2,7 +2,7 @@
 
 **Live preview: https://dasgestirn.github.io/Tic-Tac-Toe/**
 
-![site preview](https://imgur.com/a/project-screenshot-xrE4zjm)
+![site preview](https://i.imgur.com/roX5I3I.png)
 
 This project is a complete implementation of the well-known Tic Tac Toe game, made with HTML, CSS and JavaScript. The main feature is the inclusion of an AI algorithm called "Minimax", which enables the machine to make logical and tactical decisions based on current and possible board configurations.
 
