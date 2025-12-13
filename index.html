@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="select_message" class="messages">Select a game mode to start the game.</div>
+      <div id="game_modes">
+        <div id="mode_player">
+          <button data-isbot="0" class="buttons_modes">Player vs Player</button>
+        </div>
+        <div id="modes_bot">
+          <div><h3>Bot difficulty 🤖</h3></div>
+          <button data-difficulty="easy" data-isbot="1" class="buttons_modes">Easy</button>
+          <button data-difficulty="medium" data-isbot="1" class="buttons_modes">Medium</button>
+          <button data-difficulty="impossible" data-isbot="1" class="buttons_modes">
+            Impossible
+          </button>
+        </div>
+      </div>
+      <div id="turn_message" class="messages hidden">X player turn.</div>
+      <div class="start-buttons hidden">
+        <button class="start-buttons__button" data-isx="1">Play as X</button>
+        <button class="start-buttons__button" data-isx="0">Play as O</button>
+      </div>
+      <div id="again_message" class="messages hidden">Select a game mode to play again.</div>
+      <div id="game_area">
+        <div class="game_grid" data-row="0" data-column="0" data-clicked="0"></div>
+        <div class="game_grid" data-row="0" data-column="1" data-clicked="0"></div>
+        <div class="game_grid" data-row="0" data-column="2" data-clicked="0"></div>
+        <div class="game_grid" data-row="1" data-column="0" data-clicked="0"></div>
+        <div class="game_grid" data-row="1" data-column="1" data-clicked="0"></div>
+        <div class="game_grid" data-row="1" data-column="2" data-clicked="0"></div>
+        <div class="game_grid" data-row="2" data-column="0" data-clicked="0"></div>
+        <div class="game_grid" data-row="2" data-column="1" data-clicked="0"></div>
+        <div class="game_grid" data-row="2" data-column="2" data-clicked="0"></div>
+        <div id="line_row" class="line hidden"></div>
+        <div id="line_column" class="line hidden"></div>
+        <div id="line_diagonal_main" class="line hidden"></div>
+        <div id="line_diagonal_secondary" class="line hidden"></div>
+      </div>
+    </main>
+    <footer>
+      <span> Made by DasGestirn</span>
+      <a href="https://github.com/DasGestirn/Tic-Tac-Toe">
+        <i class="bx bxl-github bx-tada-hover"></i>
+      </a>
+    </footer>
+  </body>
+</html>
