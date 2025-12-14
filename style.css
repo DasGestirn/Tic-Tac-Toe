@@ -285,7 +285,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: center;
-    font-size: 12rem;
+    font-size: 1.2rem;
   }
 
   .game_grid {
